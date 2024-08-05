@@ -8,13 +8,10 @@
 import SwiftUI
 
 struct PokedexStartView: View {
-    
     var body: some View {
         TabView {
-            Tab("Pokedex", systemImage: "heart") {
-            }
-            Tab("Random Pokemon", systemImage: "dice") {
-                
+            Tab("Pokedex", systemImage: "list.bullet") {
+                PokemonListView()
             }
         }
     }

@@ -18,12 +18,12 @@ struct PokemonIconView: View {
                     image
                         .resizable()
                         .scaledToFill()
-                        .frame(width: 100, height: 100)
+                        .frame(width: 120, height: 120)
                         .clipped()
                 } placeholder: {
                     ProgressView()
                 }
-                Text(pokemon.name)
+                Text(pokemon.name.capitalized)
             }
         }
     }
