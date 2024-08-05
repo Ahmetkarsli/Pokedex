@@ -13,6 +13,9 @@ struct PokedexStartView: View {
             Tab("Pokedex", systemImage: "list.bullet") {
                 PokemonListView()
             }
+            Tab("Guess Pokemon", systemImage: "dice.fill") {
+                GuessPokemonView()
+            }
         }
     }
 }
