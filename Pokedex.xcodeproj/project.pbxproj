@@ -8,19 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		2C92BBB92C5AF3C600D8C117 /* ColorfromHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C92BBB82C5AF3C600D8C117 /* ColorfromHex.swift */; };
-		2C92BBBD2C5FEE1700D8C117 /* GuessPokemonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C92BBBC2C5FEE1700D8C117 /* GuessPokemonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2C150B312C58552500A6DA5B /* Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C92BBB82C5AF3C600D8C117 /* ColorfromHex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorfromHex.swift; sourceTree = "<group>"; };
-		2C92BBBC2C5FEE1700D8C117 /* GuessPokemonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessPokemonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
 		2C150B662C58FBEA00A6DA5B /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				GuessPokemonView.swift,
 				PokedexStartView.swift,
 				PokemonDetailView.swift,
 				PokemonIconView.swift,
@@ -57,7 +56,6 @@
 		2C150B282C58552500A6DA5B = {
 			isa = PBXGroup;
 			children = (
-				2C92BBBC2C5FEE1700D8C117 /* GuessPokemonView.swift */,
 				2C92BBB82C5AF3C600D8C117 /* ColorfromHex.swift */,
 				2C92BBBA2C5AFB8B00D8C117 /* PokemonData */,
 				2C150B652C58FBE000A6DA5B /* Views */,
@@ -147,7 +145,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C92BBBD2C5FEE1700D8C117 /* GuessPokemonView.swift in Sources */,
 				2C92BBB92C5AF3C600D8C117 /* ColorfromHex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
