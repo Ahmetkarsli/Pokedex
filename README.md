@@ -13,9 +13,9 @@ The Pokémon App is a SwiftUI application that displays information about Pokém
   
   <img src="https://github.com/user-attachments/assets/603af767-cdc7-4819-b7bd-ed642f822eb3" width="300" alt="PokemonDetailedView">
 
--- **Pokémon Random Quiz generator**: Provides a Quiz like "Who is that Pokémon"
+- **Pokémon Random Quiz generator**: Provides a Quiz like "Who is that Pokémon"
 
-   <img src="https://github.com/user-attachments/assets/b83a56eb-f129-4d8c-845a-f53e94ecf45c" width="300" alt="GuessPokemonView">
+  <img src="https://github.com/user-attachments/assets/b83a56eb-f129-4d8c-845a-f53e94ecf45c" width="300" alt="GuessPokemonView">
 
 
 ## Technologies
